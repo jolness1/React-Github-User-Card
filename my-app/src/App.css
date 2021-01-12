@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.noline {
+  text-decoration: none ;
+  color:black;
+}
+
+.noline:hover {
+  text-decoration: underline ;
+  color:darkblue;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #8c8c8c;
+  border-radius: 20%;
+  padding: 3%;
+}
