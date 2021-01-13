@@ -61,10 +61,12 @@ class App extends React.Component {
       </div>
       <div className="usercard">
         <h2>User: {this.state.userInfo.login}</h2>
+        <h6>Bio: {this.state.userInfo.bio}</h6>
         <p>Name: {this.state.userInfo.name}</p>
         <p>Repositories: {this.state.userInfo.public_repos}</p>
+        <p>Followers/Following: {this.state.userInfo.followers}/{this.state.userInfo.following}</p>
         <p><a className="noline" href={`http://twitter.com/${this.state.userInfo.twitter_username}`} >Click for Twitter</a></p>
-        <img src={this.state.userInfo.avatar_url} alt="Profile Photo" width='20%'/>
+        <img src={this.state.userInfo.avatar_url} alt="Avatar" width='20%'/>
       </div>
     </div>
     )

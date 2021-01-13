@@ -45,7 +45,7 @@
 
 .noline:hover {
   text-decoration: underline ;
-  color:darkblue;
+  color:whitesmoke;
 }
 
 .wrapper {
@@ -54,5 +54,5 @@
   text-align: center;
   background-color: #8c8c8c;
   border-radius: 20%;
-  padding: 3%;
+  padding: 1%;
 }
